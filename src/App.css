@@ -1,0 +1,48 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+#gallery {
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery-image {
+  margin: 10px;
+}
+
+.gallery-image img {
+  width: 100%;
+  height: 85%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Add styling for other components as needed */
